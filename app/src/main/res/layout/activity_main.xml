@@ -11,7 +11,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:textAlignment="center"/>
+        android:textAlignment="center"
+        android:text="Welcome To The Impact World"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30sp"/>
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
-            android:hint="masukkan email"
+            android:hint="Enter Input Your Email Address"
             android:id="@+id/email"/>
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
@@ -31,7 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            android:hint="masukkan password"
+            android:hint="Input Your Password"
             android:id="@+id/password"/>
     </com.google.android.material.textfield.TextInputLayout>
         <Button
@@ -44,5 +47,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/login"
-        android:text="Have You An Account? Please Login Your Account"/>
+        android:text="Have You An Account? Please Login Your Account"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:textSize="15sp"/>
 </LinearLayout>
