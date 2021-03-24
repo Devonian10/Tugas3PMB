@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradl2"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="Hello Welcome My Biodata"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="189dp"
+        android:src="@drawable/keqingchan"
+        android:id="@+id/picture"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Nama   : Eurico Devon Bura Pakilaran"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_gravity="fill_vertical"
+        android:text="TTL       : Makassar, 4 Oktober 2000"
+        android:textSize="17sp"
+        android:fontFamily="sans-serif-black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM      : H071191048"
+        android:fontFamily="sans-serif-black"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:layout_gravity="fill_vertical"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Motto     : Find On The Future "
+        android:fontFamily="sans-serif-black"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:layout_gravity="fill_vertical"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="logout"
+        android:id="@+id/btnlogout"/>
+</LinearLayout>
